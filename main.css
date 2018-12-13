@@ -83,8 +83,8 @@ main{
   
 }
 .central img{
-  height:220px;
-  border: 10px solid white;
+  height:270px;
+  border: 5px solid white;
 }
 
 img:hover{
@@ -96,7 +96,7 @@ img:hover{
   color: white;
   text-shadow: 5px 5px 7px #000000;
   font-family: 'Unlock',cursive;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .block img{
@@ -108,12 +108,23 @@ img:hover{
   vertical-align: middle;
 }
 
+.zero p{
+  font-size:30px;
+}
+
 .block{
   margin:10px 20px 10px;
   background-color: #FBE9E7BF;
   padding: 20px;
   /*border-radius:10px;*/
   overflow: auto;
+  font-family: 'Lato';
+  font-size: 16px;
+}
+
+.block li{
+  font-size: 18px;
+  margin:10px auto 10px 90px;
 }
 
 section::before{
