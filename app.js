@@ -4,8 +4,10 @@ $('.js-form').submit(function(event){
 	var UserTextElement= $(event.currentTarget).find('#message');
 	//var Name=$(event.currentTarget).find('#name');
 	$(".js-display").prepend(UserTextElement.val()+"<br>");
+
 	UserTextElement.val("");
 	//Name.val("");
+	$(".js-display").removeClass("hidden");
 });
 
 

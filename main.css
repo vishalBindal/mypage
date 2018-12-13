@@ -219,6 +219,9 @@ input[type=submit]:active{
   font-family: 'Permanent Marker',cursive;
   font-size:60px;
 }
+.hidden{
+  display: none; 
+}
 
 .js-display{
   margin:40px auto 0px 380px;
@@ -231,6 +234,7 @@ input[type=submit]:active{
   color:black;
   overflow: scroll;
 }
+
 
 
 .contact{
